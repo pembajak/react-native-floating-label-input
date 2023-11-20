@@ -1,5 +1,5 @@
 {
-  "name": "react-native-floating-label-input",
+  "name": "@pembajak/react-native-floating-label-input",
   "description": "A simple and customizable React Native TextInput with it's placeholder always shown.",
   "version": "1.4.3",
   "author": "Caio Nilton <cnilton>",
@@ -79,5 +79,9 @@
       "json",
       "node"
     ]
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }

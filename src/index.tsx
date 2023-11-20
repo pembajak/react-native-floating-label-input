@@ -669,7 +669,7 @@ const FloatingLabelInput: React.ForwardRefRenderFunction<InputRef, Props> = (
                 ) : !secureText && customHidePasswordComponent !== undefined ? (
                   customHidePasswordComponent
                 ) : (
-                  <Image source={imgSource} resizeMode="contain" style={img} />
+                  <Image source={imgSource as any} resizeMode="contain" style={img} />
                 )}
               </TouchableOpacity>
             )}
